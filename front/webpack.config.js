@@ -46,13 +46,21 @@ const config = {
           "css-loader",
           "sass-loader",
         ],
-      }
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
     ]
   },
   
   resolve: {
     // Add selected extension files as resolvable extensions.
-    extensions: ['.ts', '.tsx', '.js', '.json', '.jsx', '.scss']
+    extensions: ['.ts', '.tsx', '.js', '.json', '.jsx']
   },
   
   plugins: [
