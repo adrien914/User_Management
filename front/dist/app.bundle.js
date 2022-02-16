@@ -55,11 +55,11 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 __webpack_require__(/*! ./styles/index.scss */ "./src/app/styles/index.scss");
+var logo_png_1 = __webpack_require__(/*! ./images/logo.png */ "./src/app/images/logo.png");
 var user_card_1 = __webpack_require__(/*! ./components/user-card */ "./src/app/components/user-card.tsx");
-var logo = __webpack_require__(/*! ./images/logo.png */ "./src/app/images/logo.png");
 ReactDOM.render(React.createElement("ul", null,
     React.createElement("li", null,
-        React.createElement("img", { src: logo, alt: "logo" })),
+        React.createElement("img", { src: logo_png_1.default, alt: "logo" })),
     React.createElement("li", null,
         React.createElement("img", { src: "", alt: "users" })),
     React.createElement("li", null,
@@ -96,7 +96,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*, ::before, ::after {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n  list-style: none;\n}\n\nhtml {\n  --clr-primary: hsl(0, 0%, 87%);\n  --clr-secondary: hsl(249, 100%, 49%);\n}\n\nbody {\n  width: 100vw;\n  height: 100vh;\n  display: flex;\n}\n\n.side-bar {\n  width: 100px;\n  background-color: white;\n  padding: 4rem;\n  height: 100vh;\n}\n.side-bar ul {\n  display: flex;\n  flex-direction: column;\n  gap: 4rem;\n  align-items: center;\n  height: 100%;\n}\n.side-bar ul li {\n  width: 75px;\n  aspect-ratio: 1;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.side-bar ul li:last-child {\n  margin-top: auto;\n}\n\n.content {\n  background-color: var(--clr-primary);\n  width: 100%;\n  overflow: scroll;\n  padding: 8rem;\n}\n\n.user-cards-wrapper {\n  width: 100%;\n  display: flex;\n  flex-direction: row;\n  gap: 4rem;\n  flex-wrap: wrap;\n  flex-basis: 33.33%;\n}\n\n.user-card {\n  background-color: white;\n  border: 1px solid white;\n  box-shadow: 5px 5px 10px -2px;\n  border-radius: 25px;\n  width: 25%;\n  height: 8rem;\n  padding: 1rem;\n  margin-right: auto;\n}", "",{"version":3,"sources":["webpack://./src/app/styles/index.scss"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,SAAA;EACA,sBAAA;EACA,gBAAA;AACJ;;AAEA;EACI,8BAAA;EACA,oCAAA;AACJ;;AAEA;EACI,YAAA;EACA,aAAA;EACA,aAAA;AACJ;;AAEA;EACI,YAAA;EACA,uBAAA;EACA,aAAA;EACA,aAAA;AACJ;AACI;EACI,aAAA;EACA,sBAAA;EACA,SAAA;EACA,mBAAA;EACA,YAAA;AACR;AACQ;EACI,WAAA;EACA,eAAA;EACA,aAAA;EACA,mBAAA;EACA,uBAAA;AACZ;AAEQ;EACI,gBAAA;AAAZ;;AAKA;EACI,oCAAA;EACA,WAAA;EACA,gBAAA;EACA,aAAA;AAFJ;;AAKA;EACI,WAAA;EACA,aAAA;EACA,mBAAA;EACA,SAAA;EACA,eAAA;EACA,kBAAA;AAFJ;;AAKA;EACI,uBAAA;EACA,uBAAA;EACA,6BAAA;EACA,mBAAA;EACA,UAAA;EACA,YAAA;EACA,aAAA;EACA,kBAAA;AAFJ","sourcesContent":["*, ::before, ::after {\n    padding: 0;\n    margin: 0;\n    box-sizing: border-box;\n    list-style: none;\n}\n\nhtml {\n    --clr-primary: hsl(0, 0%, 87%);\n    --clr-secondary: hsl(249, 100%, 49%);\n}\n\nbody {\n    width: 100vw;\n    height: 100vh;\n    display: flex;\n}\n\n.side-bar {\n    width: 100px;\n    background-color: white;\n    padding: 4rem;\n    height: 100vh;\n\n    ul {\n        display: flex;\n        flex-direction: column;\n        gap: 4rem;\n        align-items: center;\n        height: 100%;\n\n        li {\n            width: 75px;\n            aspect-ratio: 1;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n        }\n\n        li:last-child {\n            margin-top: auto;\n        }\n    }\n}\n\n.content {\n    background-color: var(--clr-primary);\n    width: 100%;\n    overflow: scroll;\n    padding: 8rem;\n}\n\n.user-cards-wrapper {\n    width: 100%;\n    display: flex;\n    flex-direction: row;\n    gap: 4rem;\n    flex-wrap: wrap;\n    flex-basis: 33.33%;\n}\n\n.user-card {\n    background-color: white;\n    border: 1px solid white;\n    box-shadow: 5px 5px 10px -2px;\n    border-radius: 25px;\n    width: 25%;\n    height: 8rem; \n    padding: 1rem;;\n    margin-right: auto;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*, ::before, ::after {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n  list-style: none;\n}\n\nhtml {\n  --clr-primary: hsl(0, 0%, 87%);\n  --clr-secondary: hsl(249, 100%, 49%);\n}\n\nbody {\n  width: 100vw;\n  height: 100vh;\n  display: flex;\n}\n\n.side-bar {\n  width: 100px;\n  background-color: white;\n  padding: 4rem;\n  height: 100vh;\n}\n.side-bar ul {\n  display: flex;\n  flex-direction: column;\n  gap: 4rem;\n  align-items: center;\n  height: 100%;\n}\n.side-bar ul li {\n  width: 75px;\n  aspect-ratio: 1;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.side-bar ul li:last-child {\n  margin-top: auto;\n}\n\n.content {\n  background-color: var(--clr-primary);\n  width: 100%;\n  overflow: scroll;\n  padding: 8rem;\n}\n\n.user-cards-wrapper {\n  width: 100%;\n  display: flex;\n  flex-direction: row;\n  gap: 4rem;\n  flex-wrap: wrap;\n  flex-basis: 33.33%;\n}\n\n.user-card {\n  background-color: white;\n  border: 1px solid white;\n  box-shadow: 5px 5px 10px -2px;\n  border-radius: 25px;\n  width: 25%;\n  height: 8rem;\n  padding: 1rem;\n  margin-right: auto;\n}", "",{"version":3,"sources":["webpack://./src/app/styles/index.scss"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,SAAA;EACA,sBAAA;EACA,gBAAA;AACJ;;AAEA;EACI,8BAAA;EACA,oCAAA;AACJ;;AAEA;EACI,YAAA;EACA,aAAA;EACA,aAAA;AACJ;;AAEA;EACI,YAAA;EACA,uBAAA;EACA,aAAA;EACA,aAAA;AACJ;AACI;EACI,aAAA;EACA,sBAAA;EACA,SAAA;EACA,mBAAA;EACA,YAAA;AACR;AACQ;EACI,WAAA;EACA,eAAA;EACA,aAAA;EACA,mBAAA;EACA,uBAAA;AACZ;AAEQ;EACI,gBAAA;AAAZ;;AAKA;EACI,oCAAA;EACA,WAAA;EACA,gBAAA;EACA,aAAA;AAFJ;;AAKA;EACI,WAAA;EACA,aAAA;EACA,mBAAA;EACA,SAAA;EACA,eAAA;EACA,kBAAA;AAFJ;;AAKA;EACI,uBAAA;EACA,uBAAA;EACA,6BAAA;EACA,mBAAA;EACA,UAAA;EACA,YAAA;EACA,aAAA;EACA,kBAAA;AAFJ","sourcesContent":["*, ::before, ::after {\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n    list-style: none;\r\n}\r\n\r\nhtml {\r\n    --clr-primary: hsl(0, 0%, 87%);\r\n    --clr-secondary: hsl(249, 100%, 49%);\r\n}\r\n\r\nbody {\r\n    width: 100vw;\r\n    height: 100vh;\r\n    display: flex;\r\n}\r\n\r\n.side-bar {\r\n    width: 100px;\r\n    background-color: white;\r\n    padding: 4rem;\r\n    height: 100vh;\r\n\r\n    ul {\r\n        display: flex;\r\n        flex-direction: column;\r\n        gap: 4rem;\r\n        align-items: center;\r\n        height: 100%;\r\n\r\n        li {\r\n            width: 75px;\r\n            aspect-ratio: 1;\r\n            display: flex;\r\n            align-items: center;\r\n            justify-content: center;\r\n        }\r\n\r\n        li:last-child {\r\n            margin-top: auto;\r\n        }\r\n    }\r\n}\r\n\r\n.content {\r\n    background-color: var(--clr-primary);\r\n    width: 100%;\r\n    overflow: scroll;\r\n    padding: 8rem;\r\n}\r\n\r\n.user-cards-wrapper {\r\n    width: 100%;\r\n    display: flex;\r\n    flex-direction: row;\r\n    gap: 4rem;\r\n    flex-wrap: wrap;\r\n    flex-basis: 33.33%;\r\n}\r\n\r\n.user-card {\r\n    background-color: white;\r\n    border: 1px solid white;\r\n    box-shadow: 5px 5px 10px -2px;\r\n    border-radius: 25px;\r\n    width: 25%;\r\n    height: 8rem; \r\n    padding: 1rem;;\r\n    margin-right: auto;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -242,6 +242,20 @@ module.exports = function (item) {
 
   return [content].join("\n");
 };
+
+/***/ }),
+
+/***/ "./src/app/images/logo.png":
+/*!*********************************!*\
+  !*** ./src/app/images/logo.png ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "2be397d19889fa802f875f51f903d268.png");
 
 /***/ }),
 
@@ -30472,20 +30486,6 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
-/***/ }),
-
-/***/ "./src/app/images/logo.png":
-/*!*********************************!*\
-  !*** ./src/app/images/logo.png ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "2be397d19889fa802f875f51f903d268.png");
-
 /***/ })
 
 /******/ 	});
@@ -30573,7 +30573,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("d12b5a7d9f8621d775fe")
+/******/ 		__webpack_require__.h = () => ("5fd64aae74b996178cea")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
