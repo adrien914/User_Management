@@ -6,13 +6,18 @@
 }
 
 html {
-    --clr-primary: hsl(0, 0%, 87%);
+    --clr-primary: #F7F7F7;
     --clr-secondary: hsl(226, 100%, 59%);
 }
 
 body {
     width: 100vw;
     height: 100vh;
+    display: flex;
+}
+
+.wrapper {
+    width: 100vw;
     display: flex;
 }
 
@@ -35,8 +40,8 @@ body {
 
         li {
             width: 75px;
-            height: 75px;
-            aspect-ratio: 1;
+            min-height: 75px;
+            border-radius: 1rem;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -99,7 +104,7 @@ body {
         gap: .5rem;
         border: none;
         border-radius: 1rem;
-        background-color: hsl(0, 0%, 100%);
+        background-color: white;
         font-weight: bold;
     }
 
@@ -130,14 +135,14 @@ body {
     border-radius: 25px;
     height: 6rem; 
     padding: 1rem;
-
+    
     .user-arrow {
         position: absolute;
         right: 1rem;
         top: 50%;
         transform: translateY(-50%);
         font-size: 3rem;
-        color: hsl(30, 100%, 70%)
+        color: #DBA97C;
     }
 
     h2 {
