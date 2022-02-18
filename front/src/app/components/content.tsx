@@ -10,7 +10,6 @@ export class Content extends React.Component {
             {_id: "2", name: "Matthieu Bocquet", role: "Administrator"},
             {_id: "3", name: "Sharon Dupont", role: "Regular User"},
             {_id: "4", name: "Lisa De Groof", role: "Regular User"},
-            {_id: "4", name: "Lisa De Groof", role: "Regular User"},
         ]
         return (
             <div className='content'>
